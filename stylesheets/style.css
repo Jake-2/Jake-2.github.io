@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ----------------------------------
+
+BASIC STRUCTURE
+
+------------------------------------*/
+
+#wrapper { 
+	width: 960px;
+	padding: 5px;
+	margin: 20px auto;
+}
+
+#header {
+	hight: 100px;
+}
+
+#sidebar {
+	float: left;
+	width: 300px;
+}
+
+#content {
+	float: right;
+	width: 600px;
+	
+}
+
+#footer {
+	clear: both;
+	
+}
+
+/* ----------------------------------
+
+COLORS AND FONTS
+color.adobe.com
+FF0010
+FFFFFF
+F4D710
+
+
+------------------------------------*/
+body {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:black;
+	/*background-color:#FFFFFF;*/ 
+	background-image:url(../images/blue-geometric-abstract-chaotic-triangle-pattern-background-mosaic-vector-graphic-design_1164-1491.jpg);
+	
+}
+
+#header, #sidebar, #content, #footer {
+	background-color:rgba(255,229,21,0.71); 
+	margin-bottom: 4px;
+	border: double;
+	border-radius: 8px;
+	border-color:black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+/*------------------------
+
+Responsive Designs
+
+--------------------*/
+
+@media screen and (max-width: 980px) {
+	
+}
+@media screen and (max-width: 700px) {
+	
+}
+@media screen and (max-width: 480px) {
+	
+}
+
+/* Phones */
+@media only screen 
+	and(min-device-width: 320px)
+	and(min-device-width: 568px) {
+		
+}
+
+
